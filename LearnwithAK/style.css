@@ -1,0 +1,28 @@
+*{
+    align-items: center;
+    animation: alternate-reverse;
+    border: 20px;
+    background-color: rgb(195, 225, 148);
+    border-radius: 10px;
+    border-color: rgb(21, 214, 121);
+
+}
+h1{
+    background-color: rgb(212, 101, 33);
+    border-radius: 5px;
+    border-color: brown;
+}
+h2 {
+    background-color: rgb(31, 189, 203);
+    border-radius: 5px;
+    border-color: brown;
+}
+h3 {
+    background-color: rgb(20, 246, 32);
+    border-radius: 5px;
+    border-color: brown;
+}
+p {
+    border-radius: 5px;
+    border-color: brown;
+}
