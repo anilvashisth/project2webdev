@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Data of you tube video in DBMS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <a href="http://localhost/Section10%20HTML%20Forms/videoform.html">Home</a>
+    <a href="http://localhost/Section10%20HTML%20Forms/videoform.html">Delete Video List</a>
+    <a href="http://localhost/Section10%20HTML%20Forms/videoform.html">Future Video List</a><br>
+    <h1>Insert Data of youtube video in DBMS</h1>
+      
+    <form action="videolistinsert.php" method="post">
+    <form action="videolistupdate.php" method="post">
+    
+    <label for="video_date">video_date: </label>
+    <input type="date" id="video_date" name="video_date" required><br> <br>
+    
+    <label for="video_name">video_name: </label>
+    <input type="text" id="video_name" name="video_name" required><br> <br>
+
+    <label for="video_time">video_time : </label>
+    <input type="text" id="video_time" name="video_time" > <br> <br>
+
+    <label for="video_type">video_type : </label>
+    <input type="text" id="video_type" name="video_type" > <br> <br>
+
+    <label for="channel_name">channel_name : </label>
+    <input type="text" id="channel_name" name="channel_name" > <br> <br>
+
+    <label for="text">channel_info : </label>
+    <input type="channel_info" id="channel_info" name="channel_info" ><br><br>
+
+    <label for="download_date">download_date: </label>
+    <input type="date" id="download_date" name="download_date" ><br> <br>
+
+    <label for="video_size">video_size: </label>
+    <input type="text" id="video_size" name="video_size" ><br> <br>
+
+    <label for="saving_path">saving_path: </label>
+    <input type="text" id="saving_path" name="saving_path" ><br> <br>
+   
+   
+    <input type="submit" value="Insert Data"><br>
+    <input type="submit" value="Update Data"><br>
+    <input type="submit" value="Delete Data"><br>
+    
+    </form>
+
+
+</body>
+</html>
